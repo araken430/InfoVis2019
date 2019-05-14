@@ -47,18 +47,19 @@ function main()
     
     var id = faces[0];
     
-    var f0 = new THREE.Face3( id[0], id[4], id[1] );
-    var f1 = new THREE.Face3( id[1], id[4], id[5] );
-    var f2 = new THREE.Face3( id[4], id[7], id[5] );   //f2まだダメ
-    var f3 = new THREE.Face3( id[4], id[6], id[7] );
-    var f4 = new THREE.Face3( id[1], id[7], id[3] );
-    var f5 = new THREE.Face3( id[1], id[5], id[7] );
-    var f6 = new THREE.Face3( id[2], id[1], id[3] );
-    var f7 = new THREE.Face3( id[2], id[0], id[1] );
-    var f8 = new THREE.Face3( id[6], id[4], id[0] );
-    var f9 = new THREE.Face3( id[0], id[2], id[6] );
-    var f10 = new THREE.Face3( id[2], id[3], id[7] );
-    var f11 = new THREE.Face3( id[7], id[6], id[2] );
+    var f0 = new THREE.Face3( id[0], id[4], id[2] );
+    var f1 = new THREE.Face3( id[4], id[6], id[2] );
+    var f2 = new THREE.Face3( id[5], id[1], id[7] );   
+    var f3 = new THREE.Face3( id[1], id[3], id[7] );
+    var f4 = new THREE.Face3( id[0], id[1], id[4] );
+    var f5 = new THREE.Face3( id[1], id[5], id[4] );
+    var f6 = new THREE.Face3( id[6], id[7], id[2] );
+    var f7 = new THREE.Face3( id[7], id[3], id[2] );
+    var f8 = new THREE.Face3( id[1], id[0], id[2] );
+    var f9 = new THREE.Face3( id[1], id[2], id[3] );
+    var f10 = new THREE.Face3( id[4], id[5], id[6] );
+    var f11 = new THREE.Face3( id[5], id[7], id[6] );
+    
     
     
     var geometry = new THREE.Geometry();
