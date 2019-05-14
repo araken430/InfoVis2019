@@ -69,11 +69,7 @@ function main()
     var f9 = new THREE.Face3( id[1], id[2], id[3] );
     var f10 = new THREE.Face3( id[4], id[5], id[6] );
     var f11 = new THREE.Face3( id[5], id[7], id[6] );
-    
-    
-			     
-
-
+	
     
     var geometry = new THREE.Geometry();
     geometry.vertices.push(v0);
